@@ -17,11 +17,18 @@ const certs = [
     issuer: "NPTEL", 
     file: "/certificates/Data Structure and Algorithms using Java (1).pdf" 
   },
+   { 
+    name: "The Joy Of Computing Using Python", 
+    issuer: "NPTEL", 
+    file: "/certificates/Python.pdf" 
+  },
+ 
   { 
     name: "German", 
     issuer: "NPTEL", 
     file: "/certificates/German - I.pdf" 
   },
+  
   { 
     name: "Kaggle Hackathon - 4th position", 
     issuer: "Kaggle", 
