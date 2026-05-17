@@ -7,6 +7,7 @@ const achievements = [
   { icon: Trophy, title: "NPTEL Silver Medallist", desc: "Fundamentals of Object-Oriented Programming (C++, Java, Python)." },
   { icon: Code2, title: "165+ Problems Solved on LeetCode", desc: "Consistent practice across Data Structures and Algorithms." },
   { icon: Trophy, title: "NPTEL Certified", desc: "Data Structures and Algorithms using Java." },
+   { icon: Trophy, title: "NPTEL Certified", desc: "The Joy Of Computing using Python" },
    { icon: Trophy, title: "NPTEL Certified", desc: "German." }
   
 ];
