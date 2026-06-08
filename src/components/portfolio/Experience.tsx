@@ -5,7 +5,7 @@ const items = [
   {
     role: "Software Developer Intern",
     org: "Vaibhav Global Limited",
-    period: "Jun 2025 — Jul 2025",
+    period: "June 2025 — July 2025",
     location: "Jaipur",
     points: [
       "Designed and implemented RESTful APIs with JSON-based schemas and CRUD operations for inventory systems.",
@@ -17,7 +17,7 @@ const items = [
   {
     role: "Frontend Developer Intern",
     org: "QDOM Technologies",
-    period: "Jun 2024",
+    period: "June 2024",
     location: "Jaipur",
     points: [
       "Developed a responsive electric-car e-commerce website using HTML, CSS and JavaScript.",
@@ -41,20 +41,26 @@ const items = [
 
 export function Experience() {
   return (
-    <Section id="experience"  title="Experience">
+    <Section id="experience" title="Experience">
       <ol className="relative border-l border-border ml-3">
         {items.map((it, i) => (
           <li key={i} className="pl-8 pb-12 last:pb-0 relative">
             <span className="absolute -left-[13px] top-1 w-6 h-6 rounded-full bg-background border border-accent flex items-center justify-center">
               <Briefcase className="w-3 h-3 text-accent" />
             </span>
+
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="font-display text-2xl">{it.role}</h3>
               <span className="text-xs uppercase tracking-widest text-muted-foreground">
                 {it.period}
               </span>
             </div>
-            <p className="text-accent mt-1 font-medium">{it.org}</p>
+
+            <div className="mt-1">
+              <p className="text-accent font-medium">{it.org}</p>
+              <p className="text-sm text-muted-foreground">{it.location}</p>
+            </div>
+
             <ul className="mt-3 space-y-2 text-foreground/80 leading-relaxed max-w-3xl list-disc pl-5">
               {it.points.map((p, j) => (
                 <li key={j}>{p}</li>
