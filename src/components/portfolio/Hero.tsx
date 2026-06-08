@@ -41,7 +41,7 @@ export function Hero() {
               Get in touch <ArrowDownRight className="w-4 h-4" />
             </a>
             <a
-              href="\certificates\GAURIKA_PAREEK.pdf"
+              href="public/certificates/GAURIKA_PAREEK_.pdf"
               download="gaurikapareek-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
