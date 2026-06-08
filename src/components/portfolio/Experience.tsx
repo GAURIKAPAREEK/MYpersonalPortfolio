@@ -28,7 +28,7 @@ const items = [
   {
     role: "Data Engineer Intern",
     org: "Celebal Technologies",
-    period: ""June 2026 — Present"",
+    period: "June 2026 — Present",
     location: "Remote",
     points: [
       "Working on Python & Data Processing concepts such as CSV files, filtering, grouping and data transformations.",
