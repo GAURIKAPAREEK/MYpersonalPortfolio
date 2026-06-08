@@ -6,7 +6,7 @@ const items = [
     role: "Software Developer Intern",
     org: "Vaibhav Global Limited",
     period: "June 2025 — July 2025",
-    location: "Jaipur",
+    location: "Jaipur,Rajasthan",
     points: [
       "Designed and implemented RESTful APIs with JSON-based schemas and CRUD operations for inventory systems.",
       "Built an ETL pipeline processing 10k+ records, reducing billing errors by 95% and improving data accuracy.",
@@ -18,7 +18,7 @@ const items = [
     role: "Frontend Developer Intern",
     org: "QDOM Technologies",
     period: "June 2024",
-    location: "Jaipur",
+    location: "Jaipur,Rajasthan",
     points: [
       "Developed a responsive electric-car e-commerce website using HTML, CSS and JavaScript.",
       "Built reusable, responsive UI components with React, improving maintainability and cross-browser compatibility.",
