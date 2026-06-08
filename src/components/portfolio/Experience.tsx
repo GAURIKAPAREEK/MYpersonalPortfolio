@@ -6,6 +6,7 @@ const items = [
     role: "Software Developer Intern",
     org: "Vaibhav Global Limited",
     period: "Jun 2025 — Jul 2025",
+    location: "Jaipur",
     points: [
       "Designed and implemented RESTful APIs with JSON-based schemas and CRUD operations for inventory systems.",
       "Built an ETL pipeline processing 10k+ records, reducing billing errors by 95% and improving data accuracy.",
@@ -17,12 +18,24 @@ const items = [
     role: "Frontend Developer Intern",
     org: "QDOM Technologies",
     period: "Jun 2024",
+    location: "Jaipur",
     points: [
       "Developed a responsive electric-car e-commerce website using HTML, CSS and JavaScript.",
       "Built reusable, responsive UI components with React, improving maintainability and cross-browser compatibility.",
       "Optimised UI layouts and styling, improving page performance by 25% and enhancing user experience.",
     ],
-  },
+  }
+  role: "Data Engineer Intern",
+  org: "Celebal Technologies"
+  period: "Currently"
+  location: "Remote"
+  points: [
+    "Working on Python & Data Processing concepts such as CSV files, filtering, grouping and data transformations.",                                    
+     "Building Concepts of SQL & Data Analysis like joins, aggregations, subqueries, CTEs, window functions.",
+     "Collaborated with developers to design algorithms and system flowcharts for enterprise modules.",
+     "Learning Data Engineering Fundamentals like Data cleaning, missing value handling, data exploration, Apache Spark basics,and data pipeline planning.",
+],
+}
 ];
 
 export function Experience() {
