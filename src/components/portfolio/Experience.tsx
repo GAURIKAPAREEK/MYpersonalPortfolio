@@ -24,18 +24,19 @@ const items = [
       "Built reusable, responsive UI components with React, improving maintainability and cross-browser compatibility.",
       "Optimised UI layouts and styling, improving page performance by 25% and enhancing user experience.",
     ],
-  }
-  role: "Data Engineer Intern",
-  org: "Celebal Technologies"
-  period: "Currently"
-  location: "Remote"
-  points: [
-    "Working on Python & Data Processing concepts such as CSV files, filtering, grouping and data transformations.",                                    
-     "Building Concepts of SQL & Data Analysis like joins, aggregations, subqueries, CTEs, window functions.",
-     "Collaborated with developers to design algorithms and system flowcharts for enterprise modules.",
-     "Learning Data Engineering Fundamentals like Data cleaning, missing value handling, data exploration, Apache Spark basics,and data pipeline planning.",
-],
-}
+  },
+  {
+    role: "Data Engineer Intern",
+    org: "Celebal Technologies",
+    period: ""June 2026 — Present"",
+    location: "Remote",
+    points: [
+      "Working on Python & Data Processing concepts such as CSV files, filtering, grouping and data transformations.",
+      "Building SQL & Data Analysis concepts including joins, aggregations, subqueries, CTEs and window functions.",
+      "Collaborating with developers to design algorithms and system flowcharts for enterprise modules.",
+      "Learning Data Engineering fundamentals such as data cleaning, missing value handling, data exploration, Apache Spark basics and data pipeline planning.",
+    ],
+  },
 ];
 
 export function Experience() {
