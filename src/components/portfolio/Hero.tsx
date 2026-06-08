@@ -72,7 +72,7 @@ export function Hero() {
       <div className="relative max-w-6xl mx-auto px-6 mt-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border/60 border border-border rounded-2xl overflow-hidden backdrop-blur">
           {[
-            { k: "165+", v: "LeetCode Solved" },
+            { k: "200+", v: "LeetCode Solved" },
             { k: "15+", v: "Certifications" },
             { k: "Top 4", v: "Kaggle ML Rank" },
             { k: "9.42", v: "CGPA · B.Tech CSE" },
