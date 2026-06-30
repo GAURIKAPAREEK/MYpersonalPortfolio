@@ -99,7 +99,7 @@ export function Certifications() {
           </div>
         </div>
         <a
-          href="/certificates/certificates.zip"
+          href="/certificates/certificates (2).zip"
           download
           className="w-full md:w-auto inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground px-5 py-3 rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
         >
